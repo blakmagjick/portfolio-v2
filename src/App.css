@@ -2,15 +2,16 @@ body {
   font-family: "Dosis", sans-serif;
   color: white;
   background-color: #242728;
-  margin: 0 50px 50px 50px;
+  margin: 25px 50px 50px 50px;
   font-size: 110%;
+  text-align: center;
 }
 
 header {
   text-align: center;
   background-color: #242728;
   position: sticky;
-  padding-top: 20px;
+  padding-top: 10px;
   margin-bottom: 10px;
   top: 0;
 }

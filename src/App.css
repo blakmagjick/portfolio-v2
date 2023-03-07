@@ -1,38 +1,212 @@
-.App {
+body {
+  font-family: "Dosis", sans-serif;
+  color: white;
+  background-color: #242728;
+  margin: 0 50px 50px 50px;
+  font-size: 110%;
+}
+
+header {
   text-align: center;
+  background-color: #242728;
+  position: sticky;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  top: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+#quote {
   align-items: center;
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 55px;
+  color: #c9623c;
+  margin: 10px 0 10px 0;
+  font-family: "Rock Salt", cursive;
+}
+
+h2,
+h3 {
+  font-family: "Rock Salt", cursive;
+  font-weight: bold;
+  color: #d17c5c;
+  margin: 0;
+}
+
+hr {
+  border-color: rgb(108, 108, 108);
+}
+
+#profpic {
+  float: right;
+  width: 125px;
+  border-radius: 50%;
+  margin-right: 50px;
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(108, 108, 108);
+}
+
+#aboutme {
+  width: 70%;
+}
+
+#aboutme2 {
+  padding-right: 25px;
+}
+
+.drkbl {
+  color: rgb(86, 156, 214);
+}
+
+.medbl {
+  color: rgb(79, 193, 255);
+}
+
+.ltbl {
+  color: rgb(156, 220, 254);
+}
+
+.orag {
+  color: rgb(206, 145, 120);
+}
+
+.purp {
+  color: rgb(218, 112, 214);
+}
+
+.dkyl {
+  color: rgb(255, 215, 0);
+}
+
+.ltyl {
+  color: rgb(220, 220, 170);
+}
+
+#skills {
+  width: 30%;
+  padding-left: 15px;
+  font-family: "Rock Salt", cursive;
+  font-weight: bold;
+  font-size: 15px;
+  color: #d17c5c;
+}
+
+#projects {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+article {
+  width: 30%;
+  padding-top: 0;
+  /* margin-left: 5px;
+  margin-right: 5px; */
+}
+
+article img {
+  width: 275px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(108, 108, 108);
+  border-radius: 30px;
+}
+
+.projectpic {
+  width: 250px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(108, 108, 108);
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+#cert {
+  border-radius: 30px;
+}
+
+#skills {
+  width: 70%;
+  padding-left: 15px;
+  font-family: "Rock Salt", cursive;
+  font-weight: bold;
+  font-size: 15px;
+  color: #d17c5c;
+}
+
+.projecttitle {
+  font-family: "Rock Salt", cursive;
+  color: #dc9a82;
+}
+
+#projectnav {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-bottom: 15px;
+}
+
+a {
+  color: #7f7f7f;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+  color: rgb(187, 187, 187);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tint {
+  color: #d17c5c;
+  font-family: "Rock Salt", cursive;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  /* max-width: 350px; */
+}
+
+.projectinfo {
+  padding-left: 15px;
+}
+
+form input,
+form textarea {
+  font-family: "Dosis", sans-serif;
+  background-color: #bebebe;
+  color: black;
+  margin: 5px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+}
+
+form button {
+  font-family: "Dosis", sans-serif;
+  width: 25%;
+  background: #d17c5c;
+  color: white;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
